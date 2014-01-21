@@ -67,9 +67,37 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
+/* line 61, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html {
+  font-size: 137.5%;
+}
+
+/* line 64, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 22px;
+  line-height: 1.54545em;
+}
+
+/* line 8, ../_sass/partials/_typography.scss */
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+/* line 14, ../_sass/partials/_typography.scss */
+h1 {
+  font-size: 2.54545em;
+  line-height: 1.21429em;
+}
+
+/* line 18, ../_sass/partials/_typography.scss */
+.readable {
+  max-width: 50em;
+}
+
 /* -------------------------------------------------------------------------*/
 /* Layout */
-/* line 15, ../_sass/main.scss */
+/* line 16, ../_sass/main.scss */
 .container, body {
   *zoom: 1;
   max-width: 59em;
