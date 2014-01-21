@@ -26,11 +26,6 @@ h1 {
 }
 
 /* line 18, ../_sass/partials/_typography.scss */
-p {
-  margin: 0 0 1em 0;
-}
-
-/* line 22, ../_sass/partials/_typography.scss */
 .readable {
   max-width: 50em;
 }
