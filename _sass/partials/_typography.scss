@@ -15,6 +15,10 @@ h1 {
   @include adjust-font-size-to(56px);
 }
 
+p {
+	margin: 0 0 1em 0;
+}
+
 .readable {
         max-width: 50em;
 }
