@@ -2,37 +2,128 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
 /* line 61, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 * html {
-  font-size: 137.5%;
+  font-size: 112.5%;
 }
 
 /* line 64, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
-  font-size: 22px;
-  line-height: 1.54545em;
+  font-size: 18px;
+  line-height: 1.61111em;
 }
 
-/* line 8, ../_sass/partials/_typography.scss */
+/* line 9, ../_sass/partials/_typography.scss */
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
 }
 
-/* line 14, ../_sass/partials/_typography.scss */
+/* line 15, ../_sass/partials/_typography.scss */
 h1 {
-  font-size: 2.54545em;
-  line-height: 1.21429em;
+  font-size: 2em;
+  line-height: 1.61111em;
 }
 
-/* line 18, ../_sass/partials/_typography.scss */
+/* line 19, ../_sass/partials/_typography.scss */
+h2 {
+  font-size: 1.5em;
+  line-height: 2.14815em;
+}
+
+/* line 23, ../_sass/partials/_typography.scss */
 .readable {
   max-width: 50em;
 }
 
+/* line 1, ../_sass/partials/_navigation.scss */
+nav {
+  margin: 1.5em 0;
+}
+/* line 3, ../_sass/partials/_navigation.scss */
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+/* line 8, ../_sass/partials/_navigation.scss */
+nav li {
+  border-bottom: 1px solid #D0D0D0;
+}
+
+/* line 1, ../_sass/partials/_branding.scss */
+.logo--header {
+  margin: 1.5em auto;
+  display: block;
+}
+
 /* -------------------------------------------------------------------------*/
 /* Layout */
-/* line 16, ../_sass/main.scss */
+/* line 18, ../_sass/main.scss */
 .container, body {
   *zoom: 1;
   max-width: 34em;

@@ -1,7 +1,8 @@
 @import "compass/typography/vertical_rhythm";
+@import "compass/typography/links";
 
-$base-font-size: 22px;
-$base-line-height: 34px;
+$base-font-size: 18px;
+$base-line-height: 29px;
 @include establish-baseline;
 
 
@@ -12,7 +13,11 @@ body {
 
 
 h1 {
-  @include adjust-font-size-to(56px);
+  @include adjust-font-size-to(36px);
+}
+
+h2 {
+  @include adjust-font-size-to(27px);
 }
 
 .readable {
