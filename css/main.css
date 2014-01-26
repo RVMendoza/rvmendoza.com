@@ -119,6 +119,13 @@ nav li {
 .logo--header {
   margin: 1.5em auto;
   display: block;
+  width: 6em;
+}
+
+/* line 7, ../_sass/partials/_branding.scss */
+.tagline {
+  text-align: center;
+  font-style: italic;
 }
 
 /* -------------------------------------------------------------------------*/
