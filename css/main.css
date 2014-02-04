@@ -101,6 +101,16 @@ h2 {
   max-width: 50em;
 }
 
+/* line 27, ../_sass/partials/_typography.scss */
+p {
+  margin-bottom: 1.61111em;
+}
+
+/* line 31, ../_sass/partials/_typography.scss */
+.noWrap {
+  white-space: nowrap;
+}
+
 /* line 1, ../_sass/partials/_navigation.scss */
 nav {
   margin: 1.5em 0;
@@ -128,9 +138,22 @@ nav li {
   font-style: italic;
 }
 
+/* line 1, ../_sass/partials/_footer.scss */
+[role="contentinfo"] {
+  margin: 5em 0 0 0;
+  background-color: gray;
+  padding: 0 1em;
+  text-align: center;
+}
+/* line 6, ../_sass/partials/_footer.scss */
+[role="contentinfo"] p {
+  font-size: 0.66667em;
+  line-height: 2.41667em;
+}
+
 /* -------------------------------------------------------------------------*/
 /* Layout */
-/* line 18, ../_sass/main.scss */
+/* line 19, ../_sass/main.scss */
 .container, body {
   *zoom: 1;
   max-width: 34em;

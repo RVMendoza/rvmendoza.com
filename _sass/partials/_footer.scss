@@ -1,0 +1,12 @@
+[role="contentinfo"] {
+	margin: 5em 0 0 0;
+	background-color: gray;
+	padding: 0 1em;
+	text-align: center;
+	p {
+
+		@include adjust-font-size-to(12px);
+
+	}
+}
+

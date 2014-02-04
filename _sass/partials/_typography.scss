@@ -23,3 +23,11 @@ h2 {
 .readable {
         max-width: 50em;
 }
+
+p {
+	@include trailer();
+}
+
+.noWrap {
+	white-space: nowrap;
+}
