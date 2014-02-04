@@ -17,5 +17,17 @@ title: Vegan In Detroit
 	Beetroot water spinach okra water chestnut ricebean pea catsear courgette summer purslane. Water spinach arugula pea tatsoi aubergine spring onion bush tomato kale radicchio turnip chicory salsify pea sprouts fava bean. Dandelion zucchini burdock yarrow chickpea dandelion sorrel courgette turnip greens tigernut soybean radish artichoke wattle seed endive groundnut broccoli arugula.
 </p>
 
+<h2>Recent Blog Posts</h2>
+
+<ul>
+	{% for post in site.posts %}
+		<li>
+			<a href="{{ post.url }}">
+		 		<h3>{{ post.title }}</h3>
+			</a>
+		</li>
+	{% endfor %}
+</ul>
+
 <img src="http://dl2.glitter-graphics.net/pub/549/549062c91it46lgr.gif">
 <img src="http://dl8.glitter-graphics.net/pub/469/469668i2096sltx3.gif">
