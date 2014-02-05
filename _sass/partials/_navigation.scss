@@ -1,4 +1,4 @@
-nav {
+.mainNav {
 	margin: 1.5em 0;
 	ul {
 		list-style: none;
@@ -8,4 +8,12 @@ nav {
 	li {
 		border-bottom: 1px solid #D0D0D0;
 	}
+}
+
+
+.horizontalList {
+    li {
+        display: inline-block;
+        vertical-align: top;
+    }
 }

@@ -1,0 +1,8 @@
+---
+layout: post
+title: Cass Cafe
+categories : [restaurants]
+tags: [midtown]
+---
+
+<p>This is where you'll feel at home.</p>

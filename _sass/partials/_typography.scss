@@ -1,5 +1,6 @@
 @import "compass/typography/vertical_rhythm";
 @import "compass/typography/links";
+@import url(http://fonts.googleapis.com/css?family=Hammersmith+One);
 
 $base-font-size: 18px;
 $base-line-height: 29px;
@@ -7,7 +8,7 @@ $base-line-height: 29px;
 
 
 body {
-   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-family: "Hammersmith One, HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
 }
 

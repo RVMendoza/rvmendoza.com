@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Hammersmith+One);
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
@@ -78,51 +79,57 @@ html {
   line-height: 1.61111em;
 }
 
-/* line 9, ../_sass/partials/_typography.scss */
+/* line 10, ../_sass/partials/_typography.scss */
 body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Hammersmith One, HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
 }
 
-/* line 15, ../_sass/partials/_typography.scss */
+/* line 16, ../_sass/partials/_typography.scss */
 h1 {
   font-size: 2em;
   line-height: 1.61111em;
 }
 
-/* line 19, ../_sass/partials/_typography.scss */
+/* line 20, ../_sass/partials/_typography.scss */
 h2 {
   font-size: 1.5em;
   line-height: 2.14815em;
 }
 
-/* line 23, ../_sass/partials/_typography.scss */
+/* line 24, ../_sass/partials/_typography.scss */
 .readable {
   max-width: 50em;
 }
 
-/* line 27, ../_sass/partials/_typography.scss */
+/* line 28, ../_sass/partials/_typography.scss */
 p {
   margin-bottom: 1.61111em;
 }
 
-/* line 31, ../_sass/partials/_typography.scss */
+/* line 32, ../_sass/partials/_typography.scss */
 .noWrap {
   white-space: nowrap;
 }
 
 /* line 1, ../_sass/partials/_navigation.scss */
-nav {
+.mainNav {
   margin: 1.5em 0;
 }
 /* line 3, ../_sass/partials/_navigation.scss */
-nav ul {
+.mainNav ul {
   list-style: none;
   text-align: center;
 }
 /* line 8, ../_sass/partials/_navigation.scss */
-nav li {
+.mainNav li {
   border-bottom: 1px solid #D0D0D0;
+}
+
+/* line 15, ../_sass/partials/_navigation.scss */
+.horizontalList li {
+  display: inline-block;
+  vertical-align: top;
 }
 
 /* line 1, ../_sass/partials/_branding.scss */
