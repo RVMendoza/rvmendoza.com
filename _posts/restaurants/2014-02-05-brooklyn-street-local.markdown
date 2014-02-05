@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: places
 title: Brooklyn Street Local
 categories : [restaurants]
 tags: [corktown]

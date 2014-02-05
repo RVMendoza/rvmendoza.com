@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: places
 title: Detroit Vegan Soul
 categories : [restaurants]
 tags: [west village]

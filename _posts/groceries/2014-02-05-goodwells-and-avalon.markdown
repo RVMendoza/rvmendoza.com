@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: places
 title: Goodwells and Avalon Bakery
 categories : [groceries]
 tags: [midtown]

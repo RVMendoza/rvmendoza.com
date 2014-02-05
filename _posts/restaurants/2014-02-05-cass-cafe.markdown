@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: places
 title: Cass Cafe
 categories : [restaurants]
 tags: [midtown]
