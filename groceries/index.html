@@ -2,4 +2,38 @@
 layout: page
 title: Groceries
 ---
-<p>Why isn't anything changing</p>
+<h2>Midtown</h2>
+<ul class="posts">
+{% for post in site.posts %}
+    {% if post.categories contains 'groceries' and post.tags contains 'midtown' %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>
+
+<h2>Downtown</h2>
+<ul class="posts">
+{% for post in site.posts %}
+    {% if post.categories contains 'groceries' and post.tags contains 'downtown' %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>
+
+<h2>Corktown</h2>
+<ul class="posts">
+{% for post in site.posts %}
+    {% if post.categories contains 'groceries' and post.tags contains 'corktown' %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>
+
+<h2>West Village</h2>
+<ul class="posts">
+{% for post in site.posts %}
+    {% if post.categories contains 'groceries' and post.tags contains 'west village' %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>
