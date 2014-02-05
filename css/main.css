@@ -158,9 +158,14 @@ p {
   line-height: 2.41667em;
 }
 
+/* line 1, ../_sass/partials/_header.scss */
+[role="header"] {
+  text-align: center;
+}
+
 /* -------------------------------------------------------------------------*/
 /* Layout */
-/* line 19, ../_sass/main.scss */
+/* line 20, ../_sass/main.scss */
 .container, body {
   *zoom: 1;
   max-width: 34em;
