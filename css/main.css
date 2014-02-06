@@ -68,6 +68,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
+/* Modular Scale
+----------------------
+18px @ 1:1.618
+36px @ 1:1.618
+----------------------*/
 /* line 61, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 * html {
   font-size: 112.5%;
@@ -79,35 +84,42 @@ html {
   line-height: 1.61111em;
 }
 
-/* line 11, ../_sass/partials/_typography.scss */
+/* line 15, ../_sass/partials/_typography.scss */
 body {
-  font-family: "Hammersmith+One, HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
 }
 
-/* line 17, ../_sass/partials/_typography.scss */
+/* line 21, ../_sass/partials/_typography.scss */
 h1 {
   font-size: 2em;
   line-height: 1.61111em;
+  font-family: 'Hammersmith One', sans-serif;
 }
 
-/* line 21, ../_sass/partials/_typography.scss */
+/* line 26, ../_sass/partials/_typography.scss */
 h2 {
-  font-size: 1.5em;
-  line-height: 2.14815em;
+  font-size: 1.618em;
+  line-height: 1.99148em;
 }
 
-/* line 25, ../_sass/partials/_typography.scss */
+/* line 30, ../_sass/partials/_typography.scss */
+h3 {
+  font-size: 1.23611em;
+  line-height: 1.30337em;
+}
+
+/* line 35, ../_sass/partials/_typography.scss */
 .readable {
   max-width: 50em;
 }
 
-/* line 29, ../_sass/partials/_typography.scss */
+/* line 39, ../_sass/partials/_typography.scss */
 p {
   margin-bottom: 1.61111em;
 }
 
-/* line 33, ../_sass/partials/_typography.scss */
+/* line 43, ../_sass/partials/_typography.scss */
 .noWrap {
   white-space: nowrap;
 }

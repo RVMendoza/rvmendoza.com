@@ -2,24 +2,34 @@
 @import "compass/typography/vertical_rhythm";
 @import "compass/typography/links";
 
-
+/* Modular Scale
+----------------------
+18px @ 1:1.618
+36px @ 1:1.618
+----------------------*/
 $base-font-size: 18px;
 $base-line-height: 29px;
 @include establish-baseline;
 
 
 body {
-   font-family: "Hammersmith+One, HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
 }
 
 
 h1 {
-  @include adjust-font-size-to(36px);
+	@include adjust-font-size-to(36px);
+	font-family: 'Hammersmith One', sans-serif;
 }
 
 h2 {
-  @include adjust-font-size-to(27px);
+	@include adjust-font-size-to(29.124px);
+}
+
+h3 {
+		@include adjust-font-size-to(22.250px);
+
 }
 
 .readable {

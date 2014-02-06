@@ -2,7 +2,7 @@
 layout: page
 title: Groceries
 ---
-<h2>Midtown</h2>
+<h3>Midtown</h3>
 <ul class="posts">
 {% for post in site.posts %}
     {% if post.categories contains 'groceries' and post.tags contains 'midtown' %}
@@ -11,7 +11,7 @@ title: Groceries
 {% endfor %}
 </ul>
 
-<h2>Downtown</h2>
+<h3>Downtown</h3>
 <ul class="posts">
 {% for post in site.posts %}
     {% if post.categories contains 'groceries' and post.tags contains 'downtown' %}
@@ -20,7 +20,7 @@ title: Groceries
 {% endfor %}
 </ul>
 
-<h2>Corktown</h2>
+<h3>Corktown</h3>
 <ul class="posts">
 {% for post in site.posts %}
     {% if post.categories contains 'groceries' and post.tags contains 'corktown' %}
@@ -29,7 +29,7 @@ title: Groceries
 {% endfor %}
 </ul>
 
-<h2>West Village</h2>
+<h3>West Village</h3>
 <ul class="posts">
 {% for post in site.posts %}
     {% if post.categories contains 'groceries' and post.tags contains 'west village' %}
