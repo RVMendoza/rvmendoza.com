@@ -186,8 +186,13 @@ p {
 }
 
 /* line 6, ../_sass/partials/_media.scss */
-.post__img {
+.img {
   width: 100%;
+}
+
+/* line 10, ../_sass/partials/_media.scss */
+.img--notFull {
+  max-width: 100%;
 }
 
 /* -------------------------------------------------------------------------*/
