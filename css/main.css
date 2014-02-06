@@ -138,12 +138,6 @@ p {
   border-bottom: 1px solid #D0D0D0;
 }
 
-/* line 15, ../_sass/partials/_navigation.scss */
-.horizontalList li {
-  display: inline-block;
-  vertical-align: top;
-}
-
 /* line 1, ../_sass/partials/_branding.scss */
 .logo--header {
   margin: 1.5em auto;
@@ -175,9 +169,20 @@ p {
   text-align: center;
 }
 
+/* line 2, ../_sass/partials/_lists.scss */
+.horizontalList li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* line 8, ../_sass/partials/_lists.scss */
+.place {
+  margin-bottom: 1.61111em;
+}
+
 /* -------------------------------------------------------------------------*/
 /* Layout */
-/* line 20, ../_sass/main.scss */
+/* line 21, ../_sass/main.scss */
 .container, body {
   *zoom: 1;
   max-width: 34em;

@@ -1,0 +1,10 @@
+.horizontalList {
+    li {
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+.place {
+		@include trailer();
+}
