@@ -15,6 +15,7 @@
 @import "partials/header";
 @import "partials/lists";
 @import "partials/media";
+@import "partials/layout";
 
 /* -------------------------------------------------------------------------*/
 /* Layout */
@@ -26,6 +27,6 @@
 
 
 
-body{
+body {
 	@extend .container;
 }
