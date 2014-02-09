@@ -3,5 +3,5 @@
 }
 
 .fa-external-link {
-	font-size: 0.472em;
+	 @include adjust-font-size-to(8.499px);
 }
