@@ -4,6 +4,7 @@ title: Cass Cafe
 categories : [restaurants]
 tags: [midtown]
 location: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2948.485503990882!2d-83.06491955!3d42.3534914!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824d2ba5209694f%3A0xad16e4dc99dc71dd!2sCass+Cafe!5e0!3m2!1sen!2sus!4v1391923899255
+website: http://www.casscafe.com/
+tel: (313) 831-1400
 ---
-
 <p>This is where you'll feel at home.</p>

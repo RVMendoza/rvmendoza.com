@@ -1,8 +1,19 @@
 ---
 layout: default
 ---
-{{content}}
-<p>{{page.tel}}</p>
+{% if page.website %}
+	<h2 class="placeName--hasWebsite">
+		<a href="{{ page.website }}">{{ page.title }}</a>
+		<i class="fa fa-external-link"></i>
+	</h2>
+{% elsif user.name == null %}
+	<h2>{{ page.title }}</h2>
+{% endif %}
+
+{{ content }}
+
+<p>tel: {{ page.tel }}</p>
+
 <div class="map">
 	<iframe src="{{ page.location }}" width="612" height="10" frameborder="0" style="border:0"></iframe>
 </div>
