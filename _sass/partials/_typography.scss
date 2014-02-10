@@ -70,7 +70,7 @@ h3 {
 }
 
 p {
-	@include trailer();
+	@include trailer(.5);
 }
 
 .noWrap {

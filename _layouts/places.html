@@ -12,7 +12,43 @@ layout: default
 
 {{ content }}
 
-<p>tel: {{ page.tel }}</p>
+<h3>Contact Info</h3>
+<ul>
+	{% if page.tel %}
+		<li>
+				<a href="tel:{{page.tel}}">{{page.tel}}</a>
+		</li>
+	{% endif %}
+
+	{% if page.twitter %}
+		<li>
+				<i class="fa fa-twitter">
+					<a href="https://twitter.com/{{page.twitter}}">@{{page.twitter}}</a>
+				</i>
+		</li>
+	{% endif %}
+
+	{% if page.twitter %}
+		<li>
+				<i class="fa fa-instagram">
+					<a href="https://twitter.com/{{page.twitter}}">@{{page.twitter}}</a>
+				</i>
+		</li>
+	{% endif %}
+
+	{% if page.instagram %}
+		<li>
+				<i class="fa fa-twitter">
+					<a href="https://twitter.com/{{page.twitter}}">@{{page.twitter}}</a>
+				</i>
+		</li>
+	{% endif %}
+
+
+</ul>
+
+
+
 
 <div class="map">
 	<iframe src="{{ page.location }}" width="612" height="10" frameborder="0" style="border:0"></iframe>
