@@ -42,8 +42,12 @@ $base-font-size: 18px;
 $base-line-height: 6px;
 @include establish-baseline;
 
+/* Fixes the problems with headings having a huge space 
+http://atendesigngroup.com/blog/vertical-rhythm-compass
+*/
+
 html {
-  @include adjust-leading-to(4);
+  @include adjust-leading-to(6);
 }
 
 body {
