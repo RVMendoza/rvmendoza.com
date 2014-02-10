@@ -39,9 +39,12 @@ Pixels	Ems	Ems @ 16	% of 13
 1.004	0.056	0.063	7.723
 ----------------------*/
 $base-font-size: 18px;
-$base-line-height: 29px;
+$base-line-height: 6px;
 @include establish-baseline;
 
+html {
+  @include adjust-leading-to(4);
+}
 
 body {
    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 

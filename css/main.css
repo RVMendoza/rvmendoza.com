@@ -112,50 +112,55 @@ Pixels	Ems	Ems @ 16	% of 13
 /* line 64, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 18px;
-  line-height: 1.61111em;
+  line-height: 0.33333em;
 }
 
-/* line 46, ../_sass/partials/_typography.scss */
+/* line 45, ../_sass/partials/_typography.scss */
+html {
+  line-height: 1.33333em;
+}
+
+/* line 49, ../_sass/partials/_typography.scss */
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
 }
 
-/* line 52, ../_sass/partials/_typography.scss */
+/* line 55, ../_sass/partials/_typography.scss */
 h1 {
   font-size: 2em;
-  line-height: 1.61111em;
+  line-height: 1.16667em;
   font-family: 'Hammersmith One', sans-serif;
 }
 
-/* line 57, ../_sass/partials/_typography.scss */
+/* line 60, ../_sass/partials/_typography.scss */
 h2 {
   font-size: 1.618em;
-  line-height: 1.99148em;
+  line-height: 1.23609em;
 }
 
-/* line 61, ../_sass/partials/_typography.scss */
+/* line 64, ../_sass/partials/_typography.scss */
 h3 {
   font-size: 1.23611em;
-  line-height: 1.30337em;
+  line-height: 1.34831em;
 }
 
-/* line 66, ../_sass/partials/_typography.scss */
+/* line 69, ../_sass/partials/_typography.scss */
 .readable {
   max-width: 50em;
 }
 
-/* line 70, ../_sass/partials/_typography.scss */
+/* line 73, ../_sass/partials/_typography.scss */
 p {
-  margin-bottom: 1.61111em;
+  margin-bottom: 0.33333em;
 }
 
-/* line 74, ../_sass/partials/_typography.scss */
+/* line 77, ../_sass/partials/_typography.scss */
 .noWrap {
   white-space: nowrap;
 }
 
-/* line 78, ../_sass/partials/_typography.scss */
+/* line 81, ../_sass/partials/_typography.scss */
 a {
   text-decoration: none;
 }
@@ -197,7 +202,7 @@ a {
 /* line 7, ../_sass/partials/_footer.scss */
 [role="contentinfo"] p {
   font-size: 0.66667em;
-  line-height: 2.41667em;
+  line-height: 1.5em;
 }
 
 /* line 1, ../_sass/partials/_header.scss */
@@ -213,7 +218,7 @@ a {
 
 /* line 8, ../_sass/partials/_lists.scss */
 .place {
-  margin-bottom: 1.61111em;
+  margin-bottom: 0.33333em;
 }
 
 /* line 1, ../_sass/partials/_media.scss */
@@ -233,7 +238,7 @@ a {
   padding-top: 100px;
   height: 0;
   overflow: hidden;
-  margin-top: 1.61111em;
+  margin-top: 0.33333em;
 }
 
 /* line 20, ../_sass/partials/_media.scss */
@@ -267,7 +272,7 @@ a {
 
 /* line 42, ../_sass/partials/_media.scss */
 #disqus_thread {
-  margin-top: 1.61111em;
+  margin-top: 0.33333em;
 }
 
 /* line 1, ../_sass/partials/_layout.scss */
@@ -282,7 +287,8 @@ a {
 
 /* line 5, ../_sass/partials/_font-icons.scss */
 .fa-external-link {
-  font-size: 0.472em;
+  font-size: 0.47217em;
+  line-height: 2.1179em;
 }
 
 /* -------------------------------------------------------------------------*/
