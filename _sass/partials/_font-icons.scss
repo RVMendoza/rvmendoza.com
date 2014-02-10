@@ -5,3 +5,11 @@
 .fa-external-link {
 	 @include adjust-font-size-to(8.499px);
 }
+
+
+
+.fa-instagram {
+	&:before {
+		margin-right: 2px;
+	}
+}
