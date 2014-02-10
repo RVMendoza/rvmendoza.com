@@ -286,6 +286,11 @@ a {
   line-height: 1.70608em;
 }
 
+/* line 12, ../_sass/partials/_font-icons.scss */
+.fa-instagram:before {
+  margin-right: 2px;
+}
+
 /* -------------------------------------------------------------------------*/
 /* Layout */
 /* line 24, ../_sass/main.scss */
