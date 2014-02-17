@@ -126,38 +126,42 @@ h1 {
   font-size: 2em;
   line-height: 1.20833em;
   font-family: 'Hammersmith One', sans-serif;
+  font-weight: bold;
 }
 
-/* line 59, ../_sass/partials/_typography.scss */
+/* line 60, ../_sass/partials/_typography.scss */
 h2 {
   font-size: 1.618em;
   line-height: 1.49361em;
+  font-weight: bold;
 }
 
-/* line 63, ../_sass/partials/_typography.scss */
+/* line 65, ../_sass/partials/_typography.scss */
 h3 {
   font-size: 1.23611em;
   line-height: 1.30337em;
+  font-weight: bold;
 }
 
-/* line 68, ../_sass/partials/_typography.scss */
+/* line 70, ../_sass/partials/_typography.scss */
 .readable {
   max-width: 50em;
 }
 
-/* line 72, ../_sass/partials/_typography.scss */
+/* line 74, ../_sass/partials/_typography.scss */
 p {
   margin-bottom: 0.80556em;
 }
-
 /* line 76, ../_sass/partials/_typography.scss */
-.noWrap {
-  white-space: nowrap;
+p > a {
+  -webkit-box-shadow: inset 0 -3px 0 0 #FFDE8D;
+  -moz-box-shadow: inset 0 -3px 0 0 #FFDE8D;
+  box-shadow: inset 0 -3px 0 0 #FFDE8D;
 }
 
-/* line 80, ../_sass/partials/_typography.scss */
-a {
-  text-decoration: none;
+/* line 83, ../_sass/partials/_typography.scss */
+.noWrap {
+  white-space: nowrap;
 }
 
 /* line 1, ../_sass/partials/_navigation.scss */
@@ -172,6 +176,14 @@ a {
 /* line 8, ../_sass/partials/_navigation.scss */
 .mainNav li {
   border-bottom: 1px solid #D0D0D0;
+}
+/* line 12, ../_sass/partials/_navigation.scss */
+.mainNav li:hover {
+  background-color: #E8E8E8;
+  -webkit-transition: background 0.2s ease-out,color 0.2s ease-out,box-shadow 0.4s ease-in-out;
+  -moz-transition: background 0.2s ease-out,color 0.2s ease-out,box-shadow 0.4s ease-in-out;
+  -o-transition: background 0.2s ease-out,color 0.2s ease-out,box-shadow 0.4s ease-in-out;
+  transition: background 0.2s ease-out,color 0.2s ease-out,box-shadow 0.4s ease-in-out;
 }
 
 /* line 1, ../_sass/partials/_branding.scss */
@@ -275,6 +287,15 @@ a {
   max-width: 100%;
 }
 
+/* line 7, ../_sass/partials/_layout.scss */
+*,
+*:after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 /* line 1, ../_sass/partials/_font-icons.scss */
 .fa {
   vertical-align: middle;
@@ -291,9 +312,33 @@ a {
   margin-right: 2px;
 }
 
+/* line 2, ../_sass/partials/_links.scss */
+a {
+  color: #4C6B87;
+  text-decoration: none;
+}
+
+/* line 7, ../_sass/partials/_links.scss */
+a:hover {
+  background-color: #E8E8E8;
+  -webkit-transition: background 0.2s ease-out,color 0.2s ease-out,box-shadow 0.4s ease-in-out;
+  -moz-transition: background 0.2s ease-out,color 0.2s ease-out,box-shadow 0.4s ease-in-out;
+  -o-transition: background 0.2s ease-out,color 0.2s ease-out,box-shadow 0.4s ease-in-out;
+  transition: background 0.2s ease-out,color 0.2s ease-out,box-shadow 0.4s ease-in-out;
+}
+
+/* line 16, ../_sass/partials/_links.scss */
+a:hover:after {
+  background-color: #E8E8E8;
+  -webkit-transition: background 0.2s ease-out,color 0.2s ease-out,box-shadow 0.4s ease-in-out;
+  -moz-transition: background 0.2s ease-out,color 0.2s ease-out,box-shadow 0.4s ease-in-out;
+  -o-transition: background 0.2s ease-out,color 0.2s ease-out,box-shadow 0.4s ease-in-out;
+  transition: background 0.2s ease-out,color 0.2s ease-out,box-shadow 0.4s ease-in-out;
+}
+
 /* -------------------------------------------------------------------------*/
 /* Layout */
-/* line 24, ../_sass/main.scss */
+/* line 25, ../_sass/main.scss */
 .container, body {
   *zoom: 1;
   max-width: 34em;

@@ -54,15 +54,17 @@ body {
 h1 {
 	@include adjust-font-size-to(36px);
 	font-family: 'Hammersmith One', sans-serif;
+	font-weight:bold;
 }
 
 h2 {
 	@include adjust-font-size-to(29.124px);
+	font-weight:bold;
 }
 
 h3 {
 	@include adjust-font-size-to(22.250px);
-
+	font-weight:bold;
 }
 
 .readable {
@@ -71,12 +73,13 @@ h3 {
 
 p {
 	@include trailer(.5);
+	>a {
+		-webkit-box-shadow: inset 0 -3px 0 0 #FFDE8D;
+		-moz-box-shadow: inset 0 -3px 0 0 #FFDE8D;
+		box-shadow: inset 0 -3px 0 0 #FFDE8D;
+	}
 }
 
 .noWrap {
 	white-space: nowrap;
-}
-
-a {
-	text-decoration: none;
 }

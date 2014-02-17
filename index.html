@@ -24,7 +24,7 @@ title: Vegan In Detroit
 	{% for post in site.posts limit: 5 %}
 		<li>
 			<a href="{{ post.url }}">
-		 		<h3>{{ post.title }}</h3>
+		 		{{ post.title }}
 			</a>
 		</li>
 	{% endfor %}
