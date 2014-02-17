@@ -14,9 +14,15 @@ layout: default
 
 <h3>Information</h3>
 <ul>
+	{% if page.hours %}
+		<li>
+			{{page.hours}}
+		</li>
+	{% endif %}
+
 	{% if page.tel %}
 		<li>
-				<a href="tel:{{page.tel}}">{{page.tel}}</a>
+			<a href="tel:{{page.tel}}">{{page.tel}}</a>
 		</li>
 	{% endif %}
 

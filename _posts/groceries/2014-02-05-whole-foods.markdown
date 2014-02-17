@@ -8,6 +8,7 @@ website: http://www.wholefoodsmarket.com/stores/detroit
 tel: (313) 576-5300
 twitter: WFMMetroDetroit
 instagram: WholeFoodsMarket
+hours: 8am - 10pm everyday
 ---
 
 <p>This is where you'll feel at home.</p>

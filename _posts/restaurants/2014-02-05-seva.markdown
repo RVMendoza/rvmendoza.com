@@ -7,6 +7,7 @@ location: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2948.408315821835
 website: http://www.sevarestaurant.com/detroit-menu
 tel: (313) 974-6661
 twitter: SevaRestaurant
+hours: "Mon - Sunday 11am - 9pm | Fri and Sat open until 11pm"
 ---
 
 This is where you'll feel at home.

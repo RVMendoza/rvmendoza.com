@@ -325,15 +325,9 @@ a:hover {
   -moz-transition: background 0.2s ease-out,color 0.2s ease-out,box-shadow 0.4s ease-in-out;
   -o-transition: background 0.2s ease-out,color 0.2s ease-out,box-shadow 0.4s ease-in-out;
   transition: background 0.2s ease-out,color 0.2s ease-out,box-shadow 0.4s ease-in-out;
-}
-
-/* line 16, ../_sass/partials/_links.scss */
-a:hover:after {
-  background-color: #E8E8E8;
-  -webkit-transition: background 0.2s ease-out,color 0.2s ease-out,box-shadow 0.4s ease-in-out;
-  -moz-transition: background 0.2s ease-out,color 0.2s ease-out,box-shadow 0.4s ease-in-out;
-  -o-transition: background 0.2s ease-out,color 0.2s ease-out,box-shadow 0.4s ease-in-out;
-  transition: background 0.2s ease-out,color 0.2s ease-out,box-shadow 0.4s ease-in-out;
+  -webkit-box-shadow: inset 0 -3px 0 0 #FFDE8D;
+  -moz-box-shadow: inset 0 -3px 0 0 #FFDE8D;
+  box-shadow: inset 0 -3px 0 0 #FFDE8D;
 }
 
 /* -------------------------------------------------------------------------*/
