@@ -68,42 +68,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* Modular Scale
-----------------------
-18px @ 1:1.618
-36px @ 1:1.618
-
-Pixels	Ems	Ems @ 16	% of 13
-845.479	46.971	52.842	6,503.685
-645.910	35.884	40.369	4,968.538
-522.546	29.03	32.659	4,019.585
-399.203	22.178	24.95	3,070.792
-322.958	17.942	20.185	2,484.292
-246.726	13.707	15.42	1,897.892
-199.603	11.089	12.475	1,535.408
-152.488	8.472	9.531	1,172.985
-123.364	6.854	7.71	948.954
-94.245	5.236	5.89	724.962
-76.245	4.236	4.765	586.500
-58.248	3.236	3.641	448.062
-47.123	2.618	2.945	362.485
-36.000	2		2.25	276.923 *
-29.124	1.618	1.82	224.031
-22.250	1.236	1.391	171.154
-18.000	1		1.125	138.462 *
-13.752	0.764	0.86	105.785
-11.125	0.618	0.695	85.577
-8.499	0.472	0.531	65.377
-6.876	0.382	0.43	52.892
-5.253	0.292	0.328	40.408
-4.250	0.236	0.266	32.692
-3.247	0.18	0.203	24.977
-2.627	0.146	0.164	20.208
-2.007	0.112	0.125	15.438
-1.624	0.09	0.102	12.492
-1.240	0.069	0.078	9.538
-1.004	0.056	0.063	7.723
-----------------------*/
 /* line 61, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 * html {
   font-size: 112.5%;
@@ -112,54 +76,62 @@ Pixels	Ems	Ems @ 16	% of 13
 /* line 64, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 18px;
-  line-height: 1.61111em;
+  line-height: 1.5em;
 }
 
-/* line 48, ../_sass/partials/_typography.scss */
+/* line 46, ../_sass/partials/_typography.scss */
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
 }
 
-/* line 54, ../_sass/partials/_typography.scss */
+/* line 52, ../_sass/partials/_typography.scss */
 h1 {
-  font-size: 2em;
-  line-height: 1.20833em;
+  font-size: 2.66667em;
+  line-height: 1.125em;
   font-family: 'Hammersmith One', sans-serif;
   font-weight: bold;
 }
 
-/* line 60, ../_sass/partials/_typography.scss */
+/* line 58, ../_sass/partials/_typography.scss */
 h2 {
-  font-size: 1.618em;
-  line-height: 1.49361em;
+  font-size: 2.37037em;
+  line-height: 1.26563em;
   font-weight: bold;
 }
 
-/* line 65, ../_sass/partials/_typography.scss */
+/* line 63, ../_sass/partials/_typography.scss */
 h3 {
-  font-size: 1.23611em;
-  line-height: 1.30337em;
+  font-size: 2.0em;
+  line-height: 1.125em;
   font-weight: bold;
 }
 
-/* line 70, ../_sass/partials/_typography.scss */
+/* line 68, ../_sass/partials/_typography.scss */
+h4 {
+  font-size: 1.77778em;
+  line-height: 1.26563em;
+  font-weight: bold;
+}
+
+/* line 73, ../_sass/partials/_typography.scss */
 .readable {
   max-width: 50em;
 }
 
-/* line 74, ../_sass/partials/_typography.scss */
+/* line 77, ../_sass/partials/_typography.scss */
 p {
-  margin-bottom: 0.80556em;
+  font-size: 18px;
+  margin-bottom: 0.75em;
 }
-/* line 76, ../_sass/partials/_typography.scss */
+/* line 80, ../_sass/partials/_typography.scss */
 p > a {
   -webkit-box-shadow: inset 0 -3px 0 0 #FFDE8D;
   -moz-box-shadow: inset 0 -3px 0 0 #FFDE8D;
   box-shadow: inset 0 -3px 0 0 #FFDE8D;
 }
 
-/* line 83, ../_sass/partials/_typography.scss */
+/* line 87, ../_sass/partials/_typography.scss */
 .noWrap {
   white-space: nowrap;
 }
@@ -209,7 +181,7 @@ p > a {
 /* line 7, ../_sass/partials/_footer.scss */
 [role="contentinfo"] p {
   font-size: 0.66667em;
-  line-height: 2.41667em;
+  line-height: 2.25em;
 }
 
 /* line 1, ../_sass/partials/_header.scss */
@@ -225,7 +197,7 @@ p > a {
 
 /* line 8, ../_sass/partials/_lists.scss */
 .place {
-  margin-bottom: 1.61111em;
+  margin-bottom: 1.5em;
 }
 
 /* line 1, ../_sass/partials/_media.scss */
@@ -245,7 +217,7 @@ p > a {
   padding-top: 100px;
   height: 0;
   overflow: hidden;
-  margin-top: 1.61111em;
+  margin-top: 1.5em;
 }
 
 /* line 20, ../_sass/partials/_media.scss */
@@ -279,7 +251,7 @@ p > a {
 
 /* line 42, ../_sass/partials/_media.scss */
 #disqus_thread {
-  margin-top: 1.61111em;
+  margin-top: 1.5em;
 }
 
 /* line 1, ../_sass/partials/_layout.scss */
@@ -304,7 +276,7 @@ p > a {
 /* line 5, ../_sass/partials/_font-icons.scss */
 .fa-external-link {
   font-size: 0.47217em;
-  line-height: 1.70608em;
+  line-height: 1.58842em;
 }
 
 /* line 12, ../_sass/partials/_font-icons.scss */
