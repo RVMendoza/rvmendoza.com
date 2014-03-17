@@ -254,6 +254,11 @@ p > a {
   margin-top: 1.5em;
 }
 
+/* line 46, ../_sass/partials/_media.scss */
+.insta-photo {
+  width: 33.3333333333333333%;
+}
+
 /* line 1, ../_sass/partials/_layout.scss */
 .post {
   max-width: 100%;

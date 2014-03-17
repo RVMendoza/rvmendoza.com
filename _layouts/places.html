@@ -44,6 +44,43 @@ layout: default
 </ul>
 
 
+{% if page.instagramID %}
+	<div id="instafeed"></div>
+	<script type="text/javascript">
+	    var userFeed = new Instafeed({
+	        get: 'user',
+	        userId: {{page.instagramID}},
+	        accessToken: '449827118.467ede5.8990725bb3864ed0a034d7814902dfa0',
+	        limit: 6,
+	        {% raw %}
+	        	template: '<a href="{{link}}"><img class="insta-photo" src="{{image}}" /></a>'
+	        {% endraw %}
+	    });
+	    userFeed.run();
+	</script>
+
+{% elsif page.instatags %}
+	<div id="instafeed"></div>
+	<script type="text/javascript">
+	    var feed = new Instafeed({
+	        get: 'tagged',
+	        tagName: 'rvmendoza',
+	        clientId: '22152a29d0bf49b7994afaa741f613a5',
+	        limit: 6,
+	        {% raw %}
+	        	template: '<a href="{{link}}"><img class="insta-photo" src="{{image}}" /></a>'
+	        {% endraw %}
+	    });
+	    feed.run();
+	</script>
+
+
+{% endif %}
+
+
+
+
+<div id="instafeed"></div>
 
 
 <div class="map">
