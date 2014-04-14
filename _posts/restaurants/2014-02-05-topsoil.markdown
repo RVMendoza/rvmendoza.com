@@ -1,0 +1,27 @@
+---
+layout: places
+title: Topsoil at MOCAD
+categories: [restaurants]
+tags: [midtown]
+location: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1474.2449991550325!2d-83.0604621!3d42.3533956!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824d2b908baab25%3A0xb15dd14f756e4508!2sMuseum+of+Contemporary+Art+Detroit!5e0!3m2!1sen!2sus!4v1397508929925
+website: http://www.mocadetroit.org/cafe.html
+tel: (313) 832-6622
+twitter: TOPSOILatMOCAD
+hours: "Open 11am - 5pm Wednesday to Sunday | open until 8pm on Thursdays and Fridays."
+---
+
+Topsoil is inside of the MOCAD (Museum of Contemporary Art), and it's presented by Russel Street Deli.
+
+Everything there is vegan, but if you want, you can request eggs on some dishes.
+
+A notable thing is that they have vegan CONEY DOGS. A great treat for the vegan that dreams of a vegan hotdog.
+
+Their website says they have a full beer and win menu as well as coffee and tea selections!
+
+Everything is really affordable, and they try to make everything under $7.
+
+<img class="img" src="../../media/images/topsoil/topsoil-square.jpg" alt="">
+Soba noodles with a shitake mushroom broth.  Featuring tofu, scallions and leafy vegetables. 
+
+<img class="img" src="../../media/images/topsoil/topsoil-kitchen.jpg" alt="">
+
