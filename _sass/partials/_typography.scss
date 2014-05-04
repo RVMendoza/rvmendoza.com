@@ -26,10 +26,10 @@
 // ms(10)  =  75.85185px
 
 
-$base-font-size: 18px;
+$base-font-size: 20px;
 $base-line-height: $base-font-size * 1.5;
 //keeps spacing in between lines not so large
-$round-to-nearest-half-line: true;
+// $round-to-nearest-half-line: true;
 @include establish-baseline;
 
 $ms-base: $base-font-size $base-line-height;
