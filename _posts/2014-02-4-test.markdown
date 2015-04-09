@@ -1,7 +1,0 @@
----
-layout: post
-title:  "test"
-date:   2014-02-04 21:37:37
-categories: jekyll update
----
-2014-01-20-welcome-to-jekyll.markdown
