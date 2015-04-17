@@ -19,8 +19,6 @@ Before that, I was creating responsive web apps that paved the road for clients 
 In everything I do, my desire is to stir people towards bravery, courage, and transparency.  
 I’m currently going through a journey with <a href="https://play.spotify.com/artist/0YVK604Puec6VbHp2x59Il?play=true&utm_source=open.spotify.com&utm_medium=open" target="_blank">my music</a> and <a href="https://www.VeganInDetroit.com" target="_blank">my health</a>–and it feels great to be <a href="http://www.patreon.com/rvmendoza" target="_blank">supported</a>.
 
-I’m also very proud to be part of a <a href="http://instagram.com/woodsideDetroit" target="_blank">vibrant collective</a> that truly cares for the city and has a genuine heart for those in need. 
-
 My growth depends on being around <a href="{{ site.url }}/smarter-than-me.html" target="_blank">people that are smarter than me</a>, 
 so let's connect on <a href="https://twitter.com/RVxMendoza" target="_blank">Twitter</a> 
 and <a href="https://instagram.com/RVxMendoza" target="_blank">Instagram</a>!</p>

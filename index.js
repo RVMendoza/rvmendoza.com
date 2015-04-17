@@ -9,10 +9,6 @@ Metalsmith(__dirname)
 	.use(markdown())
 	.use(templates('handlebars'))
 	.destination('./build')
-	.use(watch({
-		pattern : '**/*',
-		livereload: true
-	}))
 	.build(function(err, files) {
 				console.log('built')
 				if (err) { throw err; }

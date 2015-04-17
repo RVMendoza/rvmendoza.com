@@ -1,30 +1,14 @@
 {
-  "name": "rvmendoza.github.io",
-  "version": "1.0.0",
-  "description": "RV Mendoza's personal website",
-  "main": "index.js",
+  "name": "rvmendoza.com",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "sync": "browser-sync start --config bs-config.js",
+    "deploy": "node index.js && rm -rf ./build/templates && surge --project ./build --domain rvmendoza.com"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/RVMendoza/rvmendoza.github.io.git"
-  },
-  "keywords": [
-    "RV",
-    "Mendoza"
-  ],
-  "author": "RV Mendoza",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RVMendoza/rvmendoza.github.io/issues"
-  },
-  "homepage": "https://github.com/RVMendoza/rvmendoza.github.io",
   "devDependencies": {
     "handlebars": "^3.0.1",
     "metalsmith": "^1.5.0",
     "metalsmith-markdown": "^0.2.1",
-    "metalsmith-templates": "^0.7.0",
-    "metalsmith-watch": "^0.2.0"
+    "metalsmith-templates": "^0.7.0"
   }
 }
