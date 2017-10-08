@@ -1,14 +1,23 @@
 {
-  "name": "rvmendoza.com",
-  "scripts": {
-    "start": "node index.js",
-    "sync": "browser-sync start --config bs-config.js",
-    "deploy": "node index.js && rm -rf ./build/templates && surge --project ./build --domain rvmendoza.com"
-  },
+  "private": true,
+  "name": "@phenomic/example-react-app",
+  "version": "1.0.0-alpha.11",
   "devDependencies": {
-    "handlebars": "^4.0.10",
-    "metalsmith": "^1.7.0",
-    "metalsmith-markdown": "^0.2.1",
-    "metalsmith-templates": "^0.7.0"
+    "@phenomic/cli": "^1.0.0-alpha.11",
+    "@phenomic/core": "^1.0.0-alpha.10",
+    "@phenomic/preset-react-app": "^1.0.0-alpha.11",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-helmet": "^5.0.0",
+    "react-router": "^3.2.0"
+  },
+  "scripts": {
+    "start": "phenomic start",
+    "build": "phenomic build"
+  },
+  "phenomic": {
+    "presets": [
+      "@phenomic/preset-react-app"
+    ]
   }
 }
