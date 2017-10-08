@@ -13,7 +13,8 @@
   },
   "scripts": {
     "start": "phenomic start",
-    "build": "phenomic build"
+    "build": "phenomic build",
+    "deploy": "phenomic build && surge --project ./dist --domain rvmendoza.com"
   },
   "phenomic": {
     "presets": [
