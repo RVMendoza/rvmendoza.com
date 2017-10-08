@@ -18,6 +18,18 @@ const Home = ({ isLoading, posts }) => (
         </header>
 
         {isLoading && "Loading..."}
+
+        <p>
+            I’m a <a href="https://github.com/RVMendoza" target="_blank">front-end web developer</a> and Detroit, Michigan is my home.
+        </p>
+
+        <p>
+        HTML, CSS, and javascript are a given, but <a href="http://vimeo.com/68470326" target="_blank">doing the right thing</a> is what I care about the most.
+        </p>    
+
+
+
+
         {!isLoading && (
         <ul>
             {posts &&
@@ -30,6 +42,7 @@ const Home = ({ isLoading, posts }) => (
             ))}
         </ul>
         )}
+
         <div>
         {posts.node &&
             posts.node.hasPreviousPage && (
