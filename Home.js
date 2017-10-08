@@ -1,14 +1,7 @@
 import * as React from "react";
 import Head from "react-helmet";
-import { Router, Route, browserHistory, Link } from "react-router";
-import {
-  createApp,
-  renderApp,
-  createContainer,
-  query,
-  BodyRenderer,
-  textRenderer
-} from "@phenomic/preset-react-app/lib/client";
+import { Link } from "react-router";
+import { createContainer, query } from "@phenomic/preset-react-app/lib/client";
 
 import Layout from "./Layout";
 

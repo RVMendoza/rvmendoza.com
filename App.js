@@ -12,7 +12,7 @@ import {
 
 import HomeContainer from "./Home";
 import Layout from "./Layout";
-
+import PageError from "./PageError";
 
 const DefaultPostLayout = ({ title, body }) => (
   <article>
@@ -70,20 +70,6 @@ const BlogPost = ({ hasError, isLoading, page }) => {
 const BlogPostContainer = createContainer(BlogPost, props => ({
   page: query({ path: "posts", id: props.params.splat })
 }));
-
-const PageError = ({ error }) => {
-  const status = (error && error.status) || 404;
-  const message = error && status !== 404 ? error.statusText : "Page not found";
-
-  return (
-    <div>
-      <Head>
-        <title>{message}</title>
-      </Head>
-      <h1>{message}</h1>
-    </div>
-  );
-};
 
 
 const routes = () => (
