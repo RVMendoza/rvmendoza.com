@@ -2,7 +2,7 @@ import * as React from "react";
 import Head from "react-helmet";
 
 const Layout = ({ children }) => (
-    <div>
+	<div className="f-f:sans m-x:1">
       <Head>
         <html lang="en" />
         <meta charSet="utf-8" />
@@ -13,6 +13,6 @@ const Layout = ({ children }) => (
       <footer>{/* ... */}</footer>
     </div>
   );
-  
+
 
   export default Layout;

@@ -1,5 +1,5 @@
 @import "node_modules/shed-css/lib/index.css";
-
+@import url('https://fonts.googleapis.com/css?family=Assistant:400,600,800');
 :root {
 	--black: #111111;
 	--gray-dd: #333333;
@@ -11,4 +11,8 @@
 	--red: #E62B1E;
 	--black-g: linear-gradient(to bottom, var(--gray-dd), var(--black));
 	--gray-d-g: linear-gradient(to bottom, var(--gray-d), var(--gray-dd));
+
+	--f-f-sans: 'Assistant', sans-serif;
+	--f-f-serif: serif;
+	--f-f-mono: monospace;
 }
