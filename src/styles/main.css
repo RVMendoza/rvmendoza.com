@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Assistant:400,600,800');
 @import "suitcss";
 
+:root {
+	--blue: blue
+}
+
 body {
   font-family: 'Assistant', sans-serif;
+	background-color: var(--blue);
 	h1 {
 		background: tomato;
 	}
