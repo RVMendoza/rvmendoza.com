@@ -2003,6 +2003,25 @@ css-loader@^0.26.1:
     postcss-modules-values "^1.1.0"
     source-list-map "^0.1.7"
 
+css-loader@^0.28.7:
+  version "0.28.7"
+  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-0.28.7.tgz#5f2ee989dd32edd907717f953317656160999c1b"
+  dependencies:
+    babel-code-frame "^6.11.0"
+    css-selector-tokenizer "^0.7.0"
+    cssnano ">=2.6.1 <4"
+    icss-utils "^2.1.0"
+    loader-utils "^1.0.2"
+    lodash.camelcase "^4.3.0"
+    object-assign "^4.0.1"
+    postcss "^5.0.6"
+    postcss-modules-extract-imports "^1.0.0"
+    postcss-modules-local-by-default "^1.0.1"
+    postcss-modules-scope "^1.0.0"
+    postcss-modules-values "^1.1.0"
+    postcss-value-parser "^3.3.0"
+    source-list-map "^2.0.0"
+
 css-select@^1.1.0, css-select@~1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/css-select/-/css-select-1.2.0.tgz#2b3a110539c5355f1cd8d314623e870b121ec858"
@@ -3583,6 +3602,12 @@ icss-replace-symbols@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/icss-replace-symbols/-/icss-replace-symbols-1.1.0.tgz#06ea6f83679a7749e386cfe1fe812ae5db223ded"
 
+icss-utils@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/icss-utils/-/icss-utils-2.1.0.tgz#83f0a0ec378bf3246178b6c2ad9136f135b1c962"
+  dependencies:
+    postcss "^6.0.1"
+
 ieee754@^1.1.4:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.8.tgz#be33d40ac10ef1926701f6f08a2d86fbfd1ad3e4"
@@ -4892,6 +4917,10 @@ normalize-url@^1.4.0:
     prepend-http "^1.0.0"
     query-string "^4.1.0"
     sort-keys "^1.0.0"
+
+normalize.css@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/normalize.css/-/normalize.css-6.0.0.tgz#22188c2707c911fb3ad3c1aac0677ff68661bea8"
 
 npm-run-path@^2.0.0:
   version "2.0.2"
@@ -6874,6 +6903,10 @@ source-list-map@^1.1.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/source-list-map/-/source-list-map-1.1.2.tgz#9889019d1024cce55cdc069498337ef6186a11a1"
 
+source-list-map@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/source-list-map/-/source-list-map-2.0.0.tgz#aaa47403f7b245a92fbc97ea08f250d6087ed085"
+
 source-map-resolve@^0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/source-map-resolve/-/source-map-resolve-0.5.0.tgz#fcad0b64b70afb27699e425950cb5ebcd410bc20"
@@ -7151,6 +7184,106 @@ subtext@1.x.x:
     pez "1.x.x"
     qs "4.x.x"
     wreck "6.x.x"
+
+suitcss-base@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/suitcss-base/-/suitcss-base-3.0.0.tgz#83dd53629c37adbdeac11ef6439a7f2ed955f05e"
+  dependencies:
+    normalize.css "^6.0.0"
+
+suitcss-components-arrange@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/suitcss-components-arrange/-/suitcss-components-arrange-1.1.1.tgz#db0d4173737fc52b8b5ce899e31cb6cb51e0d255"
+
+suitcss-components-button@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/suitcss-components-button/-/suitcss-components-button-6.0.0.tgz#20503ca1ac8eea3c9e63a00858ffa477c866945a"
+
+suitcss-components-flex-embed@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/suitcss-components-flex-embed/-/suitcss-components-flex-embed-2.0.4.tgz#a618359128941ef51c3d268373824a2874323d44"
+
+suitcss-components-grid@^3.0.2:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/suitcss-components-grid/-/suitcss-components-grid-3.0.3.tgz#52e0b03659ceace60add000135b57a78b328c303"
+
+suitcss-components@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/suitcss-components/-/suitcss-components-2.0.0.tgz#e6eff5b45f93b2a983b4327cc393a1a5637527e4"
+  dependencies:
+    suitcss-components-arrange "^1.1.1"
+    suitcss-components-button "^6.0.0"
+    suitcss-components-flex-embed "^2.0.4"
+    suitcss-components-grid "^3.0.2"
+
+suitcss-utils-after@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/suitcss-utils-after/-/suitcss-utils-after-1.0.1.tgz#23086dc0a1151f236de33a4c696a7b83412f02d4"
+
+suitcss-utils-align@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/suitcss-utils-align/-/suitcss-utils-align-1.0.0.tgz#8bf2b96b42c7386bc7ba3adbf14e7e6fcdd796cb"
+
+suitcss-utils-before@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/suitcss-utils-before/-/suitcss-utils-before-1.0.1.tgz#977f1b46b65db140571ebe5f767a12a4a7bc4931"
+
+suitcss-utils-display@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/suitcss-utils-display/-/suitcss-utils-display-1.0.2.tgz#cb6a4e756eab9aefb149f3e4618c76d02bbab47f"
+
+suitcss-utils-flex@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/suitcss-utils-flex/-/suitcss-utils-flex-2.0.0.tgz#c0618dbd112891720b9c7f92a4200015f2909b02"
+
+suitcss-utils-layout@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/suitcss-utils-layout/-/suitcss-utils-layout-1.0.1.tgz#a6a0a3d857164b8bbe9dd7f438cc01bc178b0aac"
+
+suitcss-utils-link@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/suitcss-utils-link/-/suitcss-utils-link-1.0.1.tgz#93f48a5261f97a2c7b4bdcb8ecece227cbf3c96c"
+
+suitcss-utils-offset@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/suitcss-utils-offset/-/suitcss-utils-offset-1.0.0.tgz#0232b12207bd6419a837a2e4f2b4a23798e087e2"
+  dependencies:
+    suitcss-utils-after "^1.0.0"
+    suitcss-utils-before "^1.0.0"
+
+suitcss-utils-position@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/suitcss-utils-position/-/suitcss-utils-position-1.0.1.tgz#28c602f3be756e9330956ad06aab04de7945c4dd"
+
+suitcss-utils-size@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/suitcss-utils-size/-/suitcss-utils-size-2.0.0.tgz#c5816b5435bf1dc2f105a0bb17966a6c6e138784"
+
+suitcss-utils-text@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/suitcss-utils-text/-/suitcss-utils-text-1.0.0.tgz#d36f83f4298952db51abad584bfab2773bb389b8"
+
+suitcss-utils@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/suitcss-utils/-/suitcss-utils-3.0.0.tgz#bd13642a74410a508692e3b91d3859597c4afba6"
+  dependencies:
+    suitcss-utils-align "^1.0.0"
+    suitcss-utils-display "^1.0.2"
+    suitcss-utils-flex "^2.0.0"
+    suitcss-utils-layout "^1.0.1"
+    suitcss-utils-link "^1.0.1"
+    suitcss-utils-offset "^1.0.0"
+    suitcss-utils-position "^1.0.1"
+    suitcss-utils-size "^2.0.0"
+    suitcss-utils-text "^1.0.0"
+
+suitcss@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/suitcss/-/suitcss-3.0.0.tgz#465342e9a886698fa88cda7a69e866678264dc8f"
+  dependencies:
+    suitcss-base "^3.0.0"
+    suitcss-components "^2.0.0"
+    suitcss-utils "^3.0.0"
 
 supports-color@^2.0.0:
   version "2.0.0"

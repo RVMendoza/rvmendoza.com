@@ -1,6 +1,6 @@
 import React from "react"
 import Link from "gatsby-link"
-import "../styles/main.scss"
+import "../styles/main.css"
 
 export default () =>
   <div>

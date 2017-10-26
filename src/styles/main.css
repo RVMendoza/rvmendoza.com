@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Assistant:400,600,800');
+@import "suitcss";
 
-$pink: pink;
-:root {
-  --gah : red;
-}
 body {
   font-family: 'Assistant', sans-serif;
-  background-color: $pink;
-  color: var(--gah);
+	h1 {
+		background: tomato;
+	}
 }
