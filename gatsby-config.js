@@ -10,6 +10,7 @@ module.exports = {
 					customVariables()
         ],
       },
-    },
+		},
+		'gatsby-plugin-react-helmet',
   ],
 }

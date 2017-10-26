@@ -1,9 +1,14 @@
 import React from "react"
 import Link from "gatsby-link"
+import { Helmet } from "react-helmet";
 import "../styles/main.css"
 
 export default () =>
   <div className="u-flex">
+		<Helmet>
+				<meta charSet="utf-8" />
+				<title>RV Mendoza - Emotional Intelligence and Front-end Web Development</title>
+		</Helmet>
     <header>
       <Link to="/">
         <h1>RV Mendoza</h1>
