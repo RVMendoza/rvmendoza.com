@@ -3,7 +3,7 @@ import Link from "gatsby-link"
 import "../styles/main.css"
 
 export default () =>
-  <div>
+  <div className="u-flex">
     <header>
       <Link to="/">
         <h1>RV Mendoza</h1>
