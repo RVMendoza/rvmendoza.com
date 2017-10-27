@@ -35,7 +35,7 @@
     "gh-pages": "^0.12.0",
     "prettier": "^1.6.1"
   },
-  "homepage": "https://github.com/noahg/gatsby-starter-blog-no-styles#readme",
+  "homepage": "https://github.com/RVMendoza/rvmendoza.com#readme",
   "keywords": [
     "gatsby"
   ],
@@ -43,7 +43,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/noahg/gatsby-starter-blog-no-styles.git"
+    "url": "git+https://github.com/RVMendoza/rvmendoza.com"
   },
   "scripts": {
     "dev": "gatsby develop",
