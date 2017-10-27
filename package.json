@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "autoprefixer": "^7.1.6",
+    "css-modularscale": "^1.1.1",
     "gatsby": "^1.8.12",
     "gatsby-link": "^1.6.8",
     "gatsby-plugin-google-analytics": "^1.0.4",
@@ -29,7 +30,8 @@
     "postcss-custom-properties": "^6.2.0",
     "postcss-import": "^11.0.0",
     "postcss-nested": "1.0.1",
-    "suitcss": "^3.0.0"
+    "suitcss": "^3.0.0",
+    "suitcss-utils-space": "^1.0.1"
   },
   "devDependencies": {
     "gh-pages": "^0.12.0",

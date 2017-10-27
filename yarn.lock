@@ -2320,6 +2320,10 @@ css-loader@^0.26.1:
     postcss-modules-values "^1.1.0"
     source-list-map "^0.1.7"
 
+css-modularscale@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/css-modularscale/-/css-modularscale-1.1.1.tgz#0675717197526cdf09c228ceb9c79afbb3aba31d"
+
 css-select@^1.1.0, css-select@~1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/css-select/-/css-select-1.2.0.tgz#2b3a110539c5355f1cd8d314623e870b121ec858"
@@ -9202,6 +9206,10 @@ suitcss-utils-position@^1.0.1:
 suitcss-utils-size@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/suitcss-utils-size/-/suitcss-utils-size-2.0.0.tgz#c5816b5435bf1dc2f105a0bb17966a6c6e138784"
+
+suitcss-utils-space@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/suitcss-utils-space/-/suitcss-utils-space-1.0.1.tgz#da37f59c2b5743e474cd06c1b082363e8ed1fce5"
 
 suitcss-utils-text@^1.0.0:
   version "1.0.0"

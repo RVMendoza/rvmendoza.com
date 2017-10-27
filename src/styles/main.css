@@ -1,8 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Assistant:400,600,800');
 @import "suitcss";
+@import "css-modularscale";
+@import "suitcss-utils-space";
 
 :root {
-	--blue: pink
+	--blue: pink;
+	--ms-base: 1em;
+	--ms-ratio: var(--minor-third);
+
+	--space-n: 0;
+	--space-b: var(--ms-3);
+	--space-s: var(--ms-1);
+	--space-m: var(--ms0);
+	--space-l: var(--ms3);
+	--space-g: var(--ms6);
 }
 
 body {
@@ -10,5 +21,6 @@ body {
 	background-color: var(--blue);
 	p {
 		color: tomato;
+
 	}
 }
