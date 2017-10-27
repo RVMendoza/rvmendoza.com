@@ -1,1 +1,27 @@
-@import "main.css";
+@import url('https://fonts.googleapis.com/css?family=Assistant:400,600,800');
+@import "module-import.css";
+@import "./header.scss";
+
+:root {
+	--blue: pink;
+	--ms-base: 1em;
+	--ms-ratio: var(--minor-third);
+
+	--space-n: 0;
+	--space-b: var(--ms-3);
+	--space-s: var(--ms-1);
+	--space-m: var(--ms0);
+	--space-l: var(--ms3);
+	--space-g: var(--ms6);
+
+	--color-black: #000000;
+}
+
+body {
+  font-family: 'Assistant', sans-serif;
+	background-color: var(--blue);
+	p {
+		color: tomato;
+
+	}
+}
