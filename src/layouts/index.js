@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import "../styles/main.css"
+import "../styles/index.scss"
 
 class Template extends React.Component {
   render() {
@@ -18,7 +18,7 @@ class Template extends React.Component {
       header = (
         <h3>
           <Link to={'/'}>
-            Gatsby Starter Blog
+            RV Mendoza
           </Link>
         </h3>
       )
