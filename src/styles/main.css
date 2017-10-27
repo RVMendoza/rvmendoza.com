@@ -2,13 +2,13 @@
 @import "suitcss";
 
 :root {
-	--blue: blue
+	--blue: pink
 }
 
 body {
   font-family: 'Assistant', sans-serif;
 	background-color: var(--blue);
-	h1 {
-		background: tomato;
+	p {
+		color: tomato;
 	}
 }
