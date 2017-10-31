@@ -20,6 +20,8 @@ class Bio extends React.Component {
 					<p>
 						HTML, CSS, and javascript are a given, but <a href="http://vimeo.com/68470326" target="_blank">doing the right thing</a> is what I care about the most.
 					</p>
+					Adding emotional intelligence to front-end web development, finance, and music performance.
+
 
 				</div>
 			</div>

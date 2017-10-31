@@ -5,12 +5,12 @@ class Header extends React.Component {
 	render() {
     const { title, children} = this.props
 		return (
-			<div className="">
-				<h3 className="">
+			<section className="Section" {...this.props}>
+				<h1 className="Section-headline">
 					{title}
-				</h3>
+				</h1>
 				{children}
-			</div>
+			</section>
 		)
 	}
 }

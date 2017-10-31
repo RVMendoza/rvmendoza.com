@@ -11,18 +11,22 @@ class Template extends React.Component {
     const { location, children } = this.props
     return (
 			<div className="App u-flex u-flexCol u-flexAlignItemsCenter">
-				<Header
-					location={location}
-				/>
+        <header className="u-flex u-flexCol u-flexAlignItemsCenter">
+					<Header
+						location={location}
+					/>
+          <div className="App-bio u-paddingAm">
+						<Bio />
+					</div>
+				</header>
         <div className="App-body u-paddingAm">
-					<Bio />
-					<Section title="What I Can Do For You" >
+					<Section title="Here's What I Can Do For You" className="u-marginBm">
 						Services list
 					</Section>
-					<Section title="Latest Posts" >
+					<Section title="Latest Posts" className="u-marginBm">
 						{children()}
 					</Section>
-					<Section title="The Hype" >
+					<Section title="The Hype" className="u-marginBm">
 						Testimonies
 					</Section>
 				</div>
