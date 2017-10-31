@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Assistant:400,600,800');
 @import "module-import.css";
 @import "./header.scss";
+@import "./avatar.scss";
+@import "./bio.scss";
 
 :root {
 	--blue: pink;
@@ -15,6 +17,7 @@
 	--space-g: var(--ms6);
 
 	--color-black: #000000;
+
 }
 
 body {

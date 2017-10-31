@@ -2,3 +2,6 @@
 @import "css-modularscale";
 @import "suitcss-utils-space";
 
+@custom-media --sm-viewport (min-width:320px);
+@custom-media --md-viewport (min-width:640px);
+@custom-media --lg-viewport (min-width:960px);

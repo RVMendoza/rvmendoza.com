@@ -1,0 +1,12 @@
+:root {
+	--Avatar-size: var(--ms13);
+}
+.Avatar {
+	overflow: hidden;
+}
+
+.Avatar-image {
+	width: var(--Avatar-size);
+	height: var(--Avatar-size);
+	border-radius: 50%;
+}

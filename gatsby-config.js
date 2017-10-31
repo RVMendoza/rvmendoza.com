@@ -1,5 +1,6 @@
 const postcssImport = require('postcss-import');
 const postcssCustomVariables = require('postcss-custom-properties');
+const postcssCustomMedia = require('postcss-custom-media');
 const postcssNested = require('postcss-nested');
 const autoprefixer = require('autoprefixer');
 
@@ -17,6 +18,7 @@ module.exports = {
           postcssNested(),
           postcssImport(),
           postcssCustomVariables(),
+          postcssCustomMedia(),
           autoprefixer({
             browsers: ['last 2 versions']
           }),
