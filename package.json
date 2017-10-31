@@ -7,6 +7,7 @@
     "url": "https://github.com/RVMendoza/rvmendoza.com/issues"
   },
   "dependencies": {
+    "@jacobmischka/gatsby-plugin-react-svg": "^1.0.0",
     "autoprefixer": "^7.1.6",
     "css-modularscale": "^1.1.1",
     "gatsby": "^1.8.12",
