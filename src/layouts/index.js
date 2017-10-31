@@ -4,6 +4,7 @@ import "../styles/index.scss"
 
 import Header from "../components/Header.js"
 import Section from "../components/Section.js"
+import Bio from "../components/Bio.js"
 
 class Template extends React.Component {
   render() {
@@ -13,16 +14,16 @@ class Template extends React.Component {
 				<Header
 					location={location}
 				/>
+				<Bio />
 				<Section title="What I Can Do For You" >
 					Services list
+				</Section>
+				<Section title="Latest Posts" >
+					{children()}
 				</Section>
 				<Section title="The Hype" >
 					Testimonies
 				</Section>
-				<Section title="The Hype" >
-					Latest Posts
-				</Section>
-        {children()}
       </div>
     )
   }
