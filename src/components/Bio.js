@@ -13,13 +13,14 @@ class Bio extends React.Component {
 						size="large"
 					/>
 				</div>
-        <div className="u-paddingAm">
-					<p className="Bio-text">
-						Written by <strong>RV Mendoza</strong> who lives and works in Detroit building useful things.{' '}
-						<a href="https://twitter.com/rvxmendoza">
-							You should follow him on Twitter
-						</a>
+        <div className="u-paddingAm Bio-text">
+					<p>
+						I’m a <a href="https://github.com/RVMendoza" target="_blank">front-end web developer</a> and Detroit, Michigan is my home.
 					</p>
+					<p>
+						HTML, CSS, and javascript are a given, but <a href="http://vimeo.com/68470326" target="_blank">doing the right thing</a> is what I care about the most.
+					</p>
+
 				</div>
 			</div>
     )
