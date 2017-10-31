@@ -6,7 +6,7 @@ import profilePic from './profile-pic.jpg'
 class Bio extends React.Component {
   render() {
     return (
-			<div className="u-flex u-flexCol u-md-flexRow u-flexAlignItemsCenter">
+			<div className="u-flex u-flexCol u-md-flexRow u-flexAlignItemsCenter u-md-flexJustifyCenter">
         <div>
 					<Avatar
 						src={profilePic}

@@ -10,20 +10,22 @@ class Template extends React.Component {
   render() {
     const { location, children } = this.props
     return (
-      <div>
+			<div className="App u-flex u-flexCol u-flexAlignItemsCenter">
 				<Header
 					location={location}
 				/>
-				<Bio />
-				<Section title="What I Can Do For You" >
-					Services list
-				</Section>
-				<Section title="Latest Posts" >
-					{children()}
-				</Section>
-				<Section title="The Hype" >
-					Testimonies
-				</Section>
+        <div className="App-body u-paddingAm">
+					<Bio />
+					<Section title="What I Can Do For You" >
+						Services list
+					</Section>
+					<Section title="Latest Posts" >
+						{children()}
+					</Section>
+					<Section title="The Hype" >
+						Testimonies
+					</Section>
+				</div>
       </div>
     )
   }
