@@ -4,6 +4,7 @@ import "../styles/index.scss"
 
 import Header from "../components/Header.js"
 import Section from "../components/Section.js"
+import ServicesList from "../components/ServicesList.js"
 import Bio from "../components/Bio.js"
 
 class Template extends React.Component {
@@ -21,7 +22,7 @@ class Template extends React.Component {
 				</header>
         <div className="App-body u-paddingAm">
 					<Section title="Here's What I Can Do For You" className="u-marginBm">
-						Services list
+						<ServicesList />
 					</Section>
 					<Section title="Latest Posts" className="u-marginBm">
 						{children()}
