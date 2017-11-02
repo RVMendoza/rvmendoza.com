@@ -1,5 +1,4 @@
 import React from 'react'
-import FrontEndIcon from '-!svg-react-loader?name=Icon!../../static/front-end.svg';
 import Link from 'gatsby-link'
 
 
@@ -7,24 +6,29 @@ class ServiceCard extends React.Component {
 
 	render() {
 
-		const { headline, text } = this.props
+		const { headline, text, icon, toPage } = this.props
+
 
 		return (
-			<section className="ServiceCard u-paddingAb">
-				<header className="u-flex u-flexJustifyBetween u-flexAlignItemsTop">
-					<h1 className="ServiceCard-headline">
+			<section className="ServiceCard u-flex u-flexCol u-flexJustifyBetween u-paddingAb">
+				<header className="u-flex u-flexJustifyBetween u-flexAlignItemsTop u-marginBs">
+					<h1 className="ServiceCard-headline u-marginRb">
 						{headline}
 					</h1>
           <div className="Icon">
-						<FrontEndIcon />
+						{icon}
 					</div>
 				</header>
-				<p className="ServiceCard-text">
-					{text}
-				</p>
-				<Link to="/front-end-developer">
-					Learn More
-				</Link>
+				<main>
+					<p className="ServiceCard-text u-marginBb">
+						{text}
+					</p>
+					<div className="u-flex u-flexJustifyEnd">
+						<Link className="Button" to={"/" + toPage}>
+							Learn More
+						</Link>
+					</div>
+				</main>
 
 			</section>
 		)

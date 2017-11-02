@@ -6,7 +6,7 @@ class Header extends React.Component {
     const { title, children} = this.props
 		return (
 			<section className="Section" {...this.props}>
-				<h1 className="Section-headline">
+				<h1 className="Section-headline u-marginBb">
 					{title}
 				</h1>
 				{children}

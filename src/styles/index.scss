@@ -7,6 +7,7 @@
 @import "./section.scss";
 @import "./service-card.scss";
 @import "./icon.scss";
+@import "./button.scss";
 
 :root {
 	--blue: pink;
@@ -21,7 +22,7 @@
 	--space-g: var(--ms6);
 
 	--color-black: #000000;
-
+	--Grid-gutter-size: var(--ms-1);
 }
 
 body {
