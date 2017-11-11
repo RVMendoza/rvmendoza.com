@@ -1,9 +1,30 @@
-.Bio-text {
-	font-size: var(--ms1);
-	text-align: center;
-	max-width: 39rem;
+.Bio {
+	font-size: var(--ms2);
+	line-height: 150%;
 
-	@media (--md-viewport) {
-		text-align: left;
+	p {
+		padding-left: 7%;
 	}
+}
+
+.Bio-highlight {
+	text-transform: uppercase;
+	color: var(--color-white);
+	background-color: var(--color-black);
+	padding-top: var(--ms-3);
+	padding-bottom: var(--ms-3);
+	padding-right: var(--ms-3);
+	padding-left: 7%;
+	display: inline-block;
+	font-size: var(--ms0);
+	font-weight: 400;
+	max-width: 75%;
+}
+
+.Bio-highlight--impact {
+	font-weight: 800;
+}
+
+.Bio-text--smaller {
+	font-size: var(--ms-1);
 }

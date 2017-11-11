@@ -20,7 +20,7 @@ class ServiceCard extends React.Component {
 					</div>
 				</header>
 				<main>
-					<p className="ServiceCard-text u-marginBb">
+					<p className="ServiceCard-text u-marginBs">
 						{text}
 					</p>
 					<div className="u-flex u-flexJustifyEnd">

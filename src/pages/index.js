@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
+import Bio from "../components/Bio.js"
 
 class BlogIndex extends React.Component {
   render() {
@@ -11,6 +12,10 @@ class BlogIndex extends React.Component {
     return (
       <div>
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
+				<div className="App-body u-marginBg">
+					<Bio />
+				</div>
+				{/*
         {posts.map(post => {
           if (post.node.path !== '/404/') {
             const title = get(post, 'node.frontmatter.title') || post.node.path
@@ -26,7 +31,8 @@ class BlogIndex extends React.Component {
               </div>
             )
           }
-        })}
+				})}
+			*/}
       </div>
     )
   }

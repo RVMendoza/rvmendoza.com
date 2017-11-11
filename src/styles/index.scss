@@ -22,14 +22,32 @@
 	--space-g: var(--ms6);
 
 	--color-black: #000000;
+	--color-white: #F6F6F6;
 	--Grid-gutter-size: var(--ms-1);
 }
 
 body {
   font-family: 'Assistant', sans-serif;
-	background-color: var(--blue);
-	p {
-		color: tomato;
+	background-color: var(--color-white);
+}
 
-	}
+.u-textBold {
+	font-weight: 700;
+}
+
+.u-indent {
+	margin-left: 7%;
+}
+
+a {
+  text-decoration: underline;
+  position: relative;
+	display: inline-block;
+	color: var(--color-black);
+	transition: all 0.3s ease;
+}
+
+a:hover {
+	background-color: var(--color-black);
+	color: var(--color-white);
 }
