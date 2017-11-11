@@ -1,5 +1,6 @@
 import React from 'react'
 import Avatar from './Avatar.js'
+import MailIcon from '-!svg-react-loader?name=Mail!../../static/mail.svg';
 
 import profilePic from './profile-pic.jpg'
 
@@ -48,6 +49,13 @@ class Bio extends React.Component {
 
 						Get your entire life on <a href="https://www.instagram.com/rvxmendoza/">my Instagram</a>.
 					</p>
+				</div>
+				<div className="StickyAction">
+					<div className="StickyAction-content u-alignMiddleA">
+						<div className="Icon">
+							<MailIcon />
+							</div>
+					</div>
 				</div>
 			</div>
     )

@@ -31,6 +31,10 @@ body {
 	background-color: var(--color-white);
 }
 
+svg {
+	fill: currentColor;
+}
+
 .u-textBold {
 	font-weight: 700;
 }
@@ -56,4 +60,40 @@ a {
 a:hover {
 	background-color: var(--color-black);
 	color: var(--color-white);
+}
+
+.StickyAction {
+	position: fixed;
+	background-color: pink;
+	width: 100px;
+	border-radius: 50%;
+	height: 100px;
+	bottom: 5px;
+	right: 5px;
+	overflow: hidden;
+}
+
+.StickyAction-content {
+	color: var(--color-white);
+	width: 3rem;
+	height: 3rem;
+}
+
+.u-alignMiddleH {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.u-alignMiddleV {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.u-alignMiddleA {
+		position: relative;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
 }
