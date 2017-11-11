@@ -20,7 +20,7 @@ class Bio extends React.Component {
 				<p className="u-marginBs">
 					My user-first approach to user interface development has empowered organizations from <a href="https://www.quickenloans.com/">multi-billion dollar financial institutions</a>, to <a href="https://leveleleven.com/">start-ups looking to pioneer an uncharted industry</a>.
 				</p>
-				<p>
+				<p className="u-marginBs">
 					I’ve helped teams win an array of accolades like <a href="https://www.myql.com/">JD Power Awards for our responsive web apps</a>, and Google’s “Game Changer” award for creating a <a href="https://leveleleven.com/product-tour/">Fitbit for sales.</a>
 				</p>
 				<p className="u-marginBs">
