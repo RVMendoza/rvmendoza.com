@@ -36,7 +36,7 @@ class Bio extends React.Component {
 						/>
 					</div>
 					<p className="Bio-text--smaller">
-						I’m also an LGBTQ Activist, an emotional intelligence coach and a Disco Pop Diva.
+						I’m also an LGBTQ Activist, an emotional intelligence coach and a <a href="https://open.spotify.com/artist/0YVK604Puec6VbHp2x59Il">Disco Pop Diva</a>.
 
 						Get your entire life on <a href="https://www.instagram.com/rvxmendoza/">my Instagram</a>.
 					</p>
