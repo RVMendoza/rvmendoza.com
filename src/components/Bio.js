@@ -6,7 +6,7 @@ import profilePic from './profile-pic.jpg'
 class Bio extends React.Component {
   render() {
     return (
-			<div className="Bio">
+			<div className="Bio u-paddingRm">
 				<h2 className="Bio-highlight u-marginBs">Finding someone that can code is easy.</h2>
 					<p className="u-marginBs">
 						Finding a <span className="u-textBold">front-end web developer</span> that can merge into your project management and work with your designers and back-end developers to deliver a user-interface that's responsive, modular, and future friendly?
@@ -28,7 +28,7 @@ class Bio extends React.Component {
 					</p>
 
 
-        <div className="u-indent u-marginTl u-flex u-flexCol u-md-flexRow u-md-flexJustifyBetween u-flexAlignItemsCenter">
+        <div className="u-md-indent u-marginTl u-flex u-flexCol u-md-flexRow u-md-flexJustifyBetween u-flexAlignItemsCenter">
           <div>
 						<Avatar
 							src={profilePic}

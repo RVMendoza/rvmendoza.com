@@ -39,6 +39,12 @@ body {
 	margin-left: 7%;
 }
 
+.u-md-indent {
+	@media (--md-viewport) {
+		margin-left: 7%;
+	}
+}
+
 a {
   text-decoration: underline;
   position: relative;
