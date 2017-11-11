@@ -9,7 +9,7 @@ class Bio extends React.Component {
 			<div className="Bio u-paddingRm">
 				<h2 className="Bio-highlight u-marginBs">Finding someone that can code is easy.</h2>
 					<p className="u-marginBs">
-						Finding a <span className="u-textBold">front-end web developer</span> that can merge into your project management and work with your designers and back-end developers to deliver a user-interface that's responsive, modular, and future friendly?
+						But what about finding a <span className="u-textBold">front-end web developer</span> that can merge into your project management and work with your designers and back-end developers to deliver a user-interface that's responsive, modular, and future friendly?
 					</p>
 					<p className="Bio-highlight Bio-highlight--impact u-marginBb">
 						That's where I come in.
