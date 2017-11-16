@@ -27,7 +27,8 @@
 }
 
 body {
-  font-family: 'Assistant', sans-serif;
+	font-family: 'Assistant', sans-serif;
+	font-size: var(--ms0);
 	background-color: var(--color-white);
 }
 
@@ -96,4 +97,36 @@ a:hover {
 		left: 50%;
 		top: 50%;
 		transform: translate(-50%, -50%);
+}
+
+.u-textUppercase {
+	text-transform: uppercase;
+}
+
+.Highlight {
+	color: var(--color-white);
+	background-color: var(--color-black);
+	padding-top: var(--ms-3);
+	padding-bottom: var(--ms-3);
+	padding-right: var(--ms-3);
+	padding-left: 7%;
+	display: inline-block;
+	font-size: var(--ms0);
+	max-width: 75%;
+}
+
+.Highlight--impact {
+	font-weight: 800;
+}
+
+.Highlight-smaller {
+	font-size: var(--ms-1);
+}
+
+.Headline {
+	font-size: var(--ms5);
+}
+
+.u-notFlush {
+	padding-left: 7%;
 }

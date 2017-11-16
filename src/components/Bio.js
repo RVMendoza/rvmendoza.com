@@ -50,6 +50,7 @@ class Bio extends React.Component {
 						Get your entire life on <a href="https://www.instagram.com/rvxmendoza/">my Instagram</a>.
 					</p>
 				</div>
+				{/*
 				<div className="StickyAction">
 					<div className="StickyAction-content u-alignMiddleA">
 						<div className="Icon">
@@ -57,6 +58,7 @@ class Bio extends React.Component {
 							</div>
 					</div>
 				</div>
+				*/}
 			</div>
     )
   }
