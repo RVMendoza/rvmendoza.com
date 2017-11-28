@@ -14,7 +14,7 @@ class Thaw extends React.Component {
 				<Helmet
 					title="THAW - Disco Pop Performance and Dance Party by RV Mendoza - Friday, Jan 19th 2018 @ El Club"
 				>
-					<meta property="og:title" content="iPhone" />
+					<meta property="og:title" content="THAW - Disco Pop Performance and Dance Party by RV Mendoza - Friday, Jan 19th 2018 @ El Club" />
 					<meta property="og:image" content={Thaw2018}/>
 				</Helmet>
 				<div className="App-body u-marginBb">
