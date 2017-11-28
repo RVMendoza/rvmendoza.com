@@ -11,7 +11,12 @@ class Thaw extends React.Component {
 
 		return (
 			<div>
-				<Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
+				<Helmet
+					title="THAW - Disco Pop Performance and Dance Party by RV Mendoza - Friday, Jan 19th 2018 @ El Club"
+				>
+					<meta property="og:title" content="iPhone" />
+					<meta property="og:image" content={Thaw2018}/>
+				</Helmet>
 				<div className="App-body u-marginBb">
 					<main className="u-paddingRm">
 						<h2 className="Headline Highlight u-textUppercase u-textBold u-marginBm">Thaw 2018</h2>
