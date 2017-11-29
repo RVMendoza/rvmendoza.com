@@ -21,17 +21,23 @@ class Thaw extends React.Component {
 					<main className="u-paddingRm">
 						<h2 className="Headline Highlight u-textUppercase u-textBold u-marginBm">Thaw 2018</h2>
 						<ul className="u-notFlush u-marginBm">
-							<li>
+							<li className="u-marginBb">
 								<span className="u-textBold u-textUppercase">When: </span>
 								Friday, January 19th, 2018 - 9PM
 							</li>
-							<li>
+							<li className="u-marginBb">
 								<span className="u-textBold u-textUppercase">Where: </span>
 								El Club - 4114 Vernor Hwy, Detroit, MI 48209
 							</li>
-							<li>
+							<li className="u-marginBb">
 								<span className="u-textBold u-textUppercase">Tickets: </span>
-								Available soon
+								<a className="u-textBold u-marginRb" href="https://www.ticketfly.com/purchase/event/1602846?utm_medium=ampOfficialEvent&utm_source=fbTfly">Get Tickets </a>
+								<span>
+										($5 in advanced, $10 at the door)
+								</span>
+							</li>
+							<li>
+								<a className="u-textBold" href="https://www.facebook.com/events/133685934004255/y">See Facebook Event</a>
 							</li>
 						</ul>
 
