@@ -93,7 +93,7 @@ class SaPusoMo extends React.Component {
 								Sa perlas ng silanganan, (at the pearl of the Orient)
 							</p>
 							<p className="u-marginBm">
-								dook ka tinanim (there you were planted)
+								doon ka tinanim (there you were planted)
 							</p>
 
 							<p className="u-marginBb">
