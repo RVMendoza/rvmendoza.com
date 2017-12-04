@@ -20,7 +20,7 @@ class SaPusoMo extends React.Component {
 				</Helmet>
 				<div className="App-body u-marginBb">
 					<main className="u-paddingRm">
-						<h2 className="Headline Highlight u-textUppercase u-textBold u-marginBs">Queer Filipinx Disco Pop Performer and Songwriter</h2>
+						<h2 className="Highlight u-textUppercase u-textBold u-marginBs">Queer Filipinx Disco Pop Performer and Songwriter</h2>
 						<p className="u-notFlush">
 							RV Mendoza is a queer Filipinx disco pop songwriter and performer from Detroit, Michigan.
 						</p>
