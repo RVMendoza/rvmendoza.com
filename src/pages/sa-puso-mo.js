@@ -20,9 +20,21 @@ class SaPusoMo extends React.Component {
 				</Helmet>
 				<div className="App-body u-marginBb">
 					<main className="u-paddingRm">
-						<h2 className="Headline Highlight u-textUppercase u-textBold u-marginBm">Sa Puso Mo</h2>
-            <div className="u-notFlush u-marginBl">
-							<iframe src="https://open.spotify.com/embed/album/7wLulbLnIZl6SKYpGtzwWE" width="100%" height="80" frameBorder="0" allowTransparency="true"></iframe>
+						<h2 className="Headline Highlight u-textUppercase u-textBold u-marginBb">Sa Puso Mo</h2>
+						<div className="Highlight u-marginBm">
+							<p>
+								"I am becoming the adult I needed when I was younger. I am becoming the representation I needed, and the kindness I didn’t have. I bring that same promise as a queer Filipinx songwriter and performer. A promise to anyone that listens: if you continue to brave, you too will become the person you've always needed."
+							</p>
+							<p>- RV Mendoza</p>
+						</div>
+
+						<div className="Grid Grid--withGutter u-notFlush u-marginBl">
+							<div className="Grid-cell u-md-size1of2">
+								<iframe src="https://open.spotify.com/embed/album/7wLulbLnIZl6SKYpGtzwWE" width="100%" height="300" frameBorder="0" allowTransparency="true"></iframe>
+							</div>
+							<div className="Grid-cell u-md-size1of2">
+								<iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/334976167&amp;color=%232f3033&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true" width="100%" height="300" frameBorder="0" allowTransparency="true" scrolling="no" framborder="no"></iframe>
+							</div>
 						</div>
 
 					<img className="u-size1of2 u-notFlush u-marginBm" src={SaPusoMoPic}/>
