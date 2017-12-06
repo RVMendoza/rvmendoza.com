@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import lyricsPic from './you-blew-it.jpg'
+import BookingImg from './booking.jpg'
 
 
 class YouBlewIt extends React.Component {
@@ -33,11 +34,19 @@ class YouBlewIt extends React.Component {
 								<iframe src="https://open.spotify.com/embed/track/7BS98GMgFBzQVyKjF62qOV" width="100%" height="300" frameBorder="0" allowTransparency="true"></iframe>
 							</div>
 							<div className="Grid-cell u-md-size1of2">
-								<iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/263103288&amp;color=%232f3033&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true" width="100%" height="300" frameBorder="0" allowTransparency="true" scrolling="no" framborder="no"></iframe>
+								<iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/263103288&amp;color=%232f3033&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true" width="100%" height="300" frameBorder="0" allowTransparency="true" scrolling="no" frameBorder="no"></iframe>
 							</div>
 						</div>
 
-					<img className="u-size1of2 u-notFlush u-marginBm" src={lyricsPic}/>
+						<div className="Grid Grid--withGutter u-notFlush u-marginBm">
+							<div className="Grid-cell u-md-size1of2">
+								<img className="u-sizeFull" src={lyricsPic}/>
+							</div>
+							<div className="Grid-cell u-md-size1of2">
+								<img className="u-sizeFull" src={BookingImg}/>
+							</div>
+						</div>
+
             <div className="u-notFlush">
 							<p className="u-marginBb">
 								I can feel your eyes on me when you think I'm not looking

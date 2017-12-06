@@ -2,7 +2,8 @@ import React from 'react'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
-import SaPusoMoPic from './sa-puso-mo.jpg'
+import lyricsPic from './sa-puso-mo.jpg'
+import BookingImg from './booking.jpg'
 
 class SaPusoMo extends React.Component {
 	render() {
@@ -15,7 +16,7 @@ class SaPusoMo extends React.Component {
 					title="Sa Puso Mo - RV Mendoza"
 				>
 					<meta property="og:title" content="Sa Puso Mo - RV Mendoza" />
-					<meta property="og:image" content={SaPusoMoPic}/>
+					<meta property="og:image" content={lyricsPic}/>
 					<meta name="google" value="notranslate"/>
 				</Helmet>
 				<div className="App-body u-marginBb">
@@ -33,11 +34,19 @@ class SaPusoMo extends React.Component {
 								<iframe src="https://open.spotify.com/embed/album/7wLulbLnIZl6SKYpGtzwWE" width="100%" height="300" frameBorder="0" allowTransparency="true"></iframe>
 							</div>
 							<div className="Grid-cell u-md-size1of2">
-								<iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/334976167&amp;color=%232f3033&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true" width="100%" height="300" frameBorder="0" allowTransparency="true" scrolling="no" framborder="no"></iframe>
+								<iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/334976167&amp;color=%232f3033&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true" width="100%" height="300" frameBorder="0" allowTransparency="true" scrolling="no" frameBorder="no"></iframe>
 							</div>
 						</div>
 
-					<img className="u-size1of2 u-notFlush u-marginBm" src={SaPusoMoPic}/>
+						<div className="Grid Grid--withGutter u-notFlush u-marginBm">
+							<div className="Grid-cell u-md-size1of2">
+								<img className="u-sizeFull" src={lyricsPic}/>
+							</div>
+							<div className="Grid-cell u-md-size1of2">
+								<img className="u-sizeFull" src={BookingImg}/>
+							</div>
+						</div>
+
             <div className="u-notFlush">
 							<p className="u-marginBb">
 								Saan ka pupunta? (Where are you going?)
