@@ -4,7 +4,7 @@ import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import BookingImg from './booking.jpg'
 
-class SaPusoMo extends React.Component {
+class Music extends React.Component {
 	render() {
 		const siteTitle = get(this, 'props.data.site.siteMetadata.title')
 		const posts = get(this, 'props.data.allMarkdownRemark.edges')
@@ -143,4 +143,4 @@ class SaPusoMo extends React.Component {
 	}
 }
 
-export default SaPusoMo
+export default Music
