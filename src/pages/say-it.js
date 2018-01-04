@@ -22,7 +22,7 @@ class SayIt extends React.Component {
 				</Helmet>
 				<div className="App-body u-marginBb">
 					<main className="u-paddingRm">
-						<h2 className="Headline Highlight u-textUppercase u-textBold u-marginBb">You Blew It</h2>
+						<h2 className="Headline Highlight u-textUppercase u-textBold u-marginBb">Say It</h2>
 						<div className="Highlight u-marginBm">
 							<p>
 								"I am becoming the adult I needed when I was younger. I am becoming the representation I needed, and the kindness I didn’t have. I bring that same promise as a queer Filipinx songwriter and performer. A promise to anyone that listens: if you continue to brave, you too will become the person you've always needed."
