@@ -47,6 +47,10 @@ class SayIt extends React.Component {
 							</div>
 						</div>
 
+						<div className="u-notFlush u-sizeFull">
+							<iframe width="100%" height="315" src="https://www.youtube.com/embed/d471iRlWYyA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						</div>
+
             <div className="u-notFlush">
 							<p className="u-marginBb">
 								You're all I've ever wanted
