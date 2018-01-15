@@ -79,6 +79,89 @@ class Music extends React.Component {
 						<ol className="u-notFlush">
 							<li className="u-marginBm">
 								<h4 className="u-textBold">
+									<a href="http://pineapplelab.ph/categories_programs/artists-in-residence/">
+										Pinapple Lab Artist in Residence
+									</a>
+								</h4>
+								<p>
+                  - Artist in Residence exploring performance and music
+								</p>
+								<p>
+                  - Researched and integrated Filipinx Futurism in modern pop music
+								</p>
+								<p>
+                  - Collaborated with fellow queer Filipinx artists and performers
+								</p>
+							</li>
+							<li className="u-marginBm">
+								<h4 className="u-textBold">
+									<a href="http://www.fringemanila.com/">
+										Pinapple Lab Artist in Residence
+									</a>
+								</h4>
+								<p>
+                  - Performer and producer of open access arts festival
+								</p>
+								<p>
+									- Performed with in Manila “Gaybhorhood” events sponsored by TEAM Mag (Philippines LGBTQ+ Magazine), and DULO
+								</p>
+								<p>
+									- Presented music and performance templates from Detroit
+								</p>
+							</li>
+							<li className="u-marginBm">
+								<h4 className="u-textBold">
+									<a href="http://rvmendoza.com/thaw/">
+										THAW 2018
+									</a>
+								</h4>
+								<p>
+									- Organized, produced, and headlined a show focusing on LGBTQ+ POC
+								</p>
+								<p>
+									- Collaborated with local Detroit talent Tim Schumack and Superwickedcool
+								</p>
+							</li>
+							<li className="u-marginBm">
+								<h4 className="u-textBold">
+									<a href="https://www.youtube.com/watch?v=rWUsG8sU4y0">
+										Songwriting placement on MTV's Teen Wolf
+									</a>
+								</h4>
+								<p>
+									- Co-wrote "Find What You're Looking For" with Flint Eastwood and producer Seth Anderson.
+								</p>
+								<p>
+									- Premiered in key moment on Season 6, Episode 2 of MTV's hit show Teen Wolf
+								</p>
+								<p>
+									- Song placements in game documentaries and Ford commercials.
+								</p>
+							</li>
+							<li className="u-marginBm">
+								<h4 className="u-textBold">
+									<a href="http://filipino.kitchen/kultura-festival/">
+										3rd Annual Kultural Chicago Festival
+									</a>
+								</h4>
+								<p>
+                  - Featured Filipinx performer at Emporium Lounge
+								</p>
+								<p>
+									- Supported Filipino Kitchen in honoring Filipino culture through music and dance
+								</p>
+							</li>		<li className="u-marginBm">
+								<h4 className="u-textBold">
+									<a href="https://www.instagram.com/p/BZEia3Bgfy_/">
+										Performer for DACA Fundraiser - Benefit Concert US Immigrants
+									</a>
+								</h4>
+								<p>
+									- Collaborated with local and international performing artists Tunde Olaniran, Bevlove and DJ StaceyeJ to raise funds for DACA Renewal Fees
+								</p>
+							</li>
+							<li className="u-marginBm">
+								<h4 className="u-textBold">
 									<a href="http://en.calameo.com/read/001556018012ee527a09d">
 										Cover of Flame Magazine
 									</a>
@@ -88,19 +171,6 @@ class Music extends React.Component {
 								</p>
 								<p>
 									- Shared his experience on his Filipinx Queer Identity, and desireability in being fat in the gay community.
-								</p>
-							</li>
-							<li className="u-marginBm">
-								<h4 className="u-textBold">
-									<a href="https://www.youtube.com/watch?v=rWUsG8sU4y0">
-										Songwriting placement on MTV’s Teen Wolf
-									</a>
-								</h4>
-								<p>
-									- Co-wrote "Find What You're Looking For" with Flint Eastwood and producer Seth Anderson.
-								</p>
-								<p>
-									- Premiered in key moment on Season 6, Episode 2 of MTV‚Äôs hit show Teen Wolf
 								</p>
 							</li>
 							<li className="u-marginBm">
