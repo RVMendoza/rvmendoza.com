@@ -38,6 +38,10 @@ class Music extends React.Component {
 							<span className="u-marginHb">|</span>
 							<a href="http://youtube.com/rvmendoza/">Youtube</a>
 						</div>
+						<div className="u-notFlush u-sizeFull">
+							<iframe width="100%" height="315" src="https://www.youtube.com/embed/ETsaCfFaSRo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						</div>
+
 						<img className="u-sizeFull u-notFlush u-marginBm" src={BookingImg} />
 						<div className="Highlight u-marginBm">
 							<p>
