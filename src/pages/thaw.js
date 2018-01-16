@@ -29,13 +29,6 @@ class Thaw extends React.Component {
 								<span className="u-textBold u-textUppercase">Where: </span>
 								El Club - 4114 Vernor Hwy, Detroit, MI 48209
 							</li>
-							<li className="u-marginBb">
-								<span className="u-textBold u-textUppercase">Tickets: </span>
-								<a className="u-textBold u-marginRb" href="https://www.ticketfly.com/purchase/event/1602846?utm_medium=ampOfficialEvent&utm_source=fbTfly">Get Tickets </a>
-								<span>
-										($5 in advanced, $10 at the door)
-								</span>
-							</li>
 							<li>
 								<a className="u-textBold" href="https://www.facebook.com/events/133685934004255/y">See Facebook Event</a>
 							</li>
