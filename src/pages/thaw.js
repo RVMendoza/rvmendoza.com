@@ -27,7 +27,7 @@ class Thaw extends React.Component {
 							</li>
 							<li className="u-marginBb">
 								<span className="u-textBold u-textUppercase">Where: </span>
-								El Club - 4114 Vernor Hwy, Detroit, MI 48209
+								TBD
 							</li>
 							<li>
 								<a className="u-textBold" href="https://www.facebook.com/events/133685934004255/y">See Facebook Event</a>
